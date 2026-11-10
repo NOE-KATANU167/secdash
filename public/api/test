@@ -1,0 +1,12 @@
+$cle = "87ee24567e8a53a7b86af6adc95d68f94e6962d38eff867f7e60f64440fe5545"
+$body = @{
+  event_type = "login_failed"
+  username   = "root"
+  ip_address = "203.0.113.45"
+  user_agent = "ssh-honeypot"
+} | ConvertTo-Json
+
+1..6 | ForEach-Object {
+  Invoke-RestMethod -Uri "http://localhost/secdash/api/ingest.php" -Method Post `
+    -Headers @{ "X-API-Key" = $cle } -ContentType "application/json" -Body $body
+}
