@@ -121,5 +121,5 @@ Après six envois, une alerte apparaît dans le tableau de bord pour `203.0.113.
 
 **Noé Kamba Katanu**, étudiant en master réseaux et cybersécurité à l'Université de Kinshasa (UNIKIN). Mes centres d'intérêt : la détection des attaques, la sécurité défensive et l'impact de l'intelligence artificielle sur la cybersécurité.
 
-- GitHub : [TON-PSEUDO](https://github.com/TON-PSEUDO)
-- LinkedIn : [TON-PROFIL](https://www.linkedin.com/in/TON-PROFIL)
+- GitHub : [NOE-KATANU167](https://github.com/NOE-KATANU167)
+- LinkedIn : www.linkedin.com/in/noé-katanu-80147b343 
